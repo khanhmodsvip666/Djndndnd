@@ -10,7 +10,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, ContextTyp
 # Cấu hình
 BOT_TOKEN = "7728975615:AAEsj_3faSR_97j4-GW_oYnOy1uYhNuuJP0"
 FIREBASE_URL = "https://bot-telegram-99852-default-rtdb.firebaseio.com/shared"
-PORT = 8000  # Port bắt buộc cho Koyeb
+PORT = 3000  # Port bắt buộc cho Koyeb
 
 # Khởi tạo Flask
 web_server = Flask(__name__)
